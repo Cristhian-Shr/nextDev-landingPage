@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "./_components/theme-provider";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
-import { Variable } from "lucide-react";
+
 
 
 const fontSans = Inter({
@@ -13,7 +13,7 @@ const fontSans = Inter({
 });
 
 const fontHeading = localFont({
-  src: "../assets/fonts/CalSans-SemiBold.woff2",
+  src: "./assets/fonts/CalSans-SemiBold.woff2",
 });
 
 export const metadata: Metadata = {
@@ -32,8 +32,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable, 
-          fontHeading.variable
+          fontSans.variable
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
