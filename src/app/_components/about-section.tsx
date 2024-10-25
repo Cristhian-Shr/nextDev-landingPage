@@ -6,14 +6,15 @@ import {
   LinkedInIcon,
   YoutTubeIcon,
 } from '@/components/social-icons';
+import dev from "../../../public/images/cristhian.jpeg";
 
 function SocialLink({ icon: Icon, ...props }: any) {
-  return (
-    <Link className='group -m-1 p-1' {...props}>
-      <Icon className='h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' />
-    </Link>
-  );
-}
+    return (
+      <Link className='group -m-1 p-1' {...props}>
+        <Icon className='h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' />
+      </Link>
+    );
+  }
 
 function AboutSection() {
   return (

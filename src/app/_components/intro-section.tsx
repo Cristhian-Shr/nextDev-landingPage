@@ -36,8 +36,8 @@ export function IntroSection () {
             <ModeToggle />
           </span>
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl ">
-            The Next Dev <br />
-            Full-stack <span className="text-primary">Next.js 14</span>
+            The <br />
+ <span className="text-primary">Next Dev</span>
           </h1>
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
             Invista na sua carreira e aprenda a desenvolver aplicações que as
