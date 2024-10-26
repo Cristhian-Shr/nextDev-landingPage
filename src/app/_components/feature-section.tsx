@@ -173,86 +173,100 @@ function FeatureSection() {
   return (
     <section
       id="feature"
-      className="bg-slate-50 dark:bg-transparent container space-y-6 py-8 md:py-12 lg:py-16"
+      className="bg-slate-50 dark:bg-transparent container space-y-6 py-8 md:py-12 lg:py-10"
     >
       <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
         <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
           Tech Stack
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-          Venha desenvolver comigo um projeto real, do zero, usando a melhor
-          Stack do mercado.
+          Venha desenvolver comigo um projeto usando a melhor Stack do mercado.
         </p>
       </div>
 
       <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-            <SiNextdotjs className="text-5xl" />
-            <div className="space-y-2">
+          <div className="flex h-[280px] flex-col justify-between items-center rounded-md p-6">
+            <SiNextdotjs className="text-6xl" />
+            <div className="space-y-2 flex flex-col items-center">
               <h3 className="font-bold">Next.js</h3>
               <p className="text-sm text-muted-foreground">
-                App dir, Routing, Layouts, Loading UI e API routes.
+                Next.js é um framework(ferramenta) para React que facilita a
+                criação de aplicações web modernas. Ele oferece renderização no
+                servidor, rotas automáticas e otimização para SEO, melhorando
+                desempenho e experiência do usuário.
               </p>
             </div>
           </div>
         </div>
 
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+          <div className="flex h-[280px] flex-col justify-between items-center rounded-md p-6">
             <FaReact className="text-5xl" />
-            <div className="space-y-2">
+            <div className="space-y-2 flex flex-col items-center">
               <h3 className="font-bold">React.js</h3>
               <p className="text-sm text-muted-foreground">
-                Server e Client Components. Uso de Hooks.
+                React é uma biblioteca JavaScript para criar interfaces de
+                usuário com componentes reutilizáveis, facilitando o
+                desenvolvimento de aplicações dinâmicas. É amplamente utilizada
+                por seu modelo declarativo e eficiência em atualizar o DOM.
               </p>
             </div>
           </div>
         </div>
 
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+          <div className="flex h-[280px] flex-col justify-between items-center rounded-md p-6">
             <IoLogoJavascript className="text-5xl" />
-            <div className="space-y-2">
+            <div className="space-y-2 flex flex-col items-center">
               <h3 className="font-bold">JavaScript</h3>
               <p className="text-sm text-muted-foreground">
-                ORM usando Prisma publicados no PlanetScale.
+                JavaScript é uma linguagem de programação essencial para o
+                desenvolvimento web, permitindo a criação de páginas interativas
+                e dinâmicas. É executada no navegador, possibilitando
+                manipulação do DOM e integração com APIs.
               </p>
             </div>
           </div>
         </div>
 
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+          <div className="flex h-[280px] flex-col justify-between items-center rounded-md p-6">
             <SiTailwindcss className="text-5xl" />
-            <div className="space-y-2">
-              <h3 className="font-bold">Components</h3>
+            <div className="space-y-2 flex flex-col items-center">
+              <h3 className="font-bold">Tailwind CSS</h3>
               <p className="text-sm text-muted-foreground">
-                UI components usando Radix UI e estilizados com TailwindCSS.
+                Tailwind CSS é um framework utilitário que oferece classes
+                pré-definidas para estilizar rapidamente elementos no HTML. Ele
+                permite criar designs e interfaces personalizados e responsivos
+                de forma consistente, rápida e configurável.
               </p>
             </div>
           </div>
         </div>
 
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+          <div className="flex h-[280px] flex-col justify-between items-center rounded-md p-6">
             <FaDatabase className="text-5xl" />
-            <div className="space-y-2">
+            <div className="space-y-2 flex flex-col items-center">
               <h3 className="font-bold">Database</h3>
               <p className="text-sm text-muted-foreground">
-                ORM usando Prisma publicados no PlanetScale.
+                Os bancos de dados são sistemas organizados para armazenar,
+                gerenciar e recuperar informações de forma eficiente. Pode ser
+                relacionais, como MySQL e PostgreSQL, usando tabelas e SQL, ou
+                não relacionais, como MongoDB, que armazenam dados.
               </p>
             </div>
           </div>
         </div>
 
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+          <div className="flex h-[280px] flex-col justify-between items-center rounded-md p-6">
             <svg viewBox="0 0 24 24" className="h-12 w-12 fill-current">
               <path d="M13.976 9.15c-2.172-.806-3.356-1.426-3.356-2.409 0-.831.683-1.305 1.901-1.305 2.227 0 4.515.858 6.09 1.631l.89-5.494C18.252.975 15.697 0 12.165 0 9.667 0 7.589.654 6.104 1.872 4.56 3.147 3.757 4.992 3.757 7.218c0 4.039 2.467 5.76 6.476 7.219 2.585.92 3.445 1.574 3.445 2.583 0 .98-.84 1.545-2.354 1.545-1.875 0-4.965-.921-6.99-2.109l-.9 5.555C5.175 22.99 8.385 24 11.714 24c2.641 0 4.843-.624 6.328-1.813 1.664-1.305 2.525-3.236 2.525-5.732 0-4.128-2.524-5.851-6.594-7.305h.003z" />
             </svg>
-            <div className="space-y-2">
-              <h3 className="font-bold">Subscriptions</h3>
+            <div className="space-y-2 flex flex-col items-center">
+              <h3 className="font-bold">falta aqui</h3>
               <p className="text-sm text-muted-foreground">
                 Controle de Assinaturas pagas usando Stripe.
               </p>
@@ -260,7 +274,9 @@ function FeatureSection() {
           </div>
         </div>
       </div>
-      <div className="mx-auto text-center md:max-w-[58rem]">
+
+      {/* trabalhar aqui nessa sessão */}
+      {/* <div className="mx-auto text-center md:max-w-[58rem]">
         <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7 mb-4">
           Iremos desenvolver uma plataforma LMS (Learning Management System),
           utilizando Next.js 14 e as melhores tecnologias do mercado. Veja o
@@ -292,7 +308,7 @@ function FeatureSection() {
             </AccordionItem>
           ))}
         </Accordion>
-      </div>
+      </div> */}
     </section>
   );
 }

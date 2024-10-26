@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaGithub,
   FaYoutube,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 function Footer() {
@@ -14,59 +15,51 @@ function Footer() {
         <div className="flex flex-col lg:flex-row lg:justify-between">
           {/* Section - Company */}
           <div className="mb-8 lg:mb-0">
-            <h2 className="text-xl font-bold text-gray-600">
+            <h2 className="text-xl font-bold text-primary">
               Next Dev @cristhianschroer
             </h2>
             <p className="mt-2 max-w-xs text-gray-400">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              Quer saber um pouco mais sobre mim? Veja minhas redes sociais!
             </p>
             <div className="flex mt-4 space-x-4">
-              <li>
-                <Link
-                  href=""
-                  aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
-                >
-                  <FaFacebook size={20} />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href=""
-                  aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
-                >
-                  <FaInstagram size={20} />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href=""
-                  aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
-                >
-                  <FaTwitter size={20} />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href=""
-                  aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
-                >
-                  <FaGithub size={20} />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href=""
-                  aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
-                >
-                  <FaYoutube size={20} />
-                </Link>
-              </li>
+              <ul className="flex gap-5">
+                <li>
+                  <Link
+                    href="https://www.facebook.com/csschroer"
+                    aria-label="Facebook"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    <FaFacebook size={30} />
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://www.instagram.com/cristhian.shr/"
+                    aria-label="Facebook"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    <FaInstagram size={30} />
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href=""
+                    aria-label="Facebook"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    <FaWhatsapp size={30} />
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://github.com/Cristhian-Shr"
+                    aria-label="Facebook"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    <FaGithub size={30} />
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -185,7 +178,7 @@ function Footer() {
         {/* Footer Bottom */}
         <div className="mt-12 border-t border-gray-700 pt-8 text-center text-gray-400">
           <p>
-            © 2024 Next Dev @cristhianschroer, Inc. Todos os direitos
+            © 2024 Next Dev @cristhianschroer. Todos os direitos
             reservados.
           </p>
         </div>

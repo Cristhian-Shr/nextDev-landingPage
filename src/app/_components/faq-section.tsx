@@ -9,7 +9,7 @@ function FaqSection() {
   return (
     <section
       id="faq"
-      className="flex w-full h-screen items-center justify-center 
+      className="flex w-full items-center justify-center 
       flex-col bg-slate-50 dark:bg-transparent space-y-6 py-8 md:py-12 lg:py-10"
     >
       <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
@@ -20,27 +20,24 @@ function FaqSection() {
       <div className="mx-auto text-center md:max-w-[58rem]">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-5">
-            <AccordionTrigger>Como comprar o curso?</AccordionTrigger>
+            <AccordionTrigger>pergunta 1?</AccordionTrigger>
             <AccordionContent className="text-left">
               <p>
-                Se estiver no período de matrículas abertas, basta clicar no
-                botão <span className="font-bold">Matricular</span> que você
-                será redirecionado para uma página de compras da Hotmart. Feito
-                isso, você poderá realizar as aulas através da própria
-                plataforma da Hotmart. Você receberá informações de quando as
-                aulas estarão disponíveis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis, illum cumque numquam eaque tenetur porro sunt?
+                Obcaecati, non tempore molestiae dolorem, labore iure
+                repudiandae ullam excepturi neque temporibus fuga quia.
               </p>
               <p>
-                Caso o período de matrículas esteja encerrado, você poderá
-                clicar no botão{" "}
-                <span className="font-bold">Lista de Espera</span> e preencher o
-                formulário para ser avisado quando as matrículas forem
-                reabertas.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloremque exercitationem aliquid, voluptates dolorem
+                consequatur quos quisquam quod libero pariatur? Doloribus, enim
+                est suscipit hic qui voluptates sed fuga at ducimus.
               </p>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-1">
-            <AccordionTrigger>Para quem é este curso?</AccordionTrigger>
+            <AccordionTrigger>pergunta 2?</AccordionTrigger>
             <AccordionContent className="text-left">
               <p>
                 Para quem possui conhecimentos básicos de HTML, CSS e
@@ -54,40 +51,43 @@ function FaqSection() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>
-              Por quanto tempo terei acesso ao curso?
-            </AccordionTrigger>
+            <AccordionTrigger>pergunta 3?</AccordionTrigger>
             <AccordionContent className="text-left">
               Você terá 1 ano após a data da compra.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>O Curso irá emitir certificado?</AccordionTrigger>
+            <AccordionTrigger>pergunta 4?</AccordionTrigger>
             <AccordionContent className="text-left">
-              Sim. Você terá acesso ao certificado após concluir o curso.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+              asperiores dicta aperiam architecto aspernatur iure pariatur,
+              ullam laudantium delectus sunt sequi animi ipsa ut atque
+              cupiditate incidunt tempore non quis?
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger>Como funciona o Suporte?</AccordionTrigger>
+            <AccordionTrigger>pergunta 5?</AccordionTrigger>
             <AccordionContent className="text-left">
-              Você terá acesso exclusivo ao grupo do WhatsApp, onde eu irei
-              tirar suas dúvidas por lá.
+              loresm sd.fnslkfnsldkfnsld
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
-            <AccordionTrigger>
-              Matriculando no curso terei acesso imediato às aulas?
-            </AccordionTrigger>
+            <AccordionTrigger>pergunta 6?</AccordionTrigger>
             <AccordionContent className="text-left">
-              As aulas gravadas serão disponibilizadas a partir do dia 04 de
-              Dezembro de 2023.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Molestias perspiciatis, mollitia veniam deserunt at maiores eos,
+              assumenda facere magnam, provident animi officia ab ad aut
+              possimus iure accusamus error adipisci!
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-7">
-            <AccordionTrigger>Como funciona o reembolso?</AccordionTrigger>
+            <AccordionTrigger>pergunta 7?</AccordionTrigger>
             <AccordionContent className="text-left">
-              Após 15 dias você poderá solicitar o reembolso de 100% do valor
-              através da plataforma da Hotmart.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              aspernatur error? Ducimus ex repellat molestiae dolorum
+              consectetur consequuntur blanditiis quo! Illum corporis,
+              repudiandae sequi distinctio pariatur architecto amet ab
+              doloribus?
             </AccordionContent>
           </AccordionItem>
         </Accordion>
