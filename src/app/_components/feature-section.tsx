@@ -106,8 +106,8 @@ function FeatureSection() {
               <h3 className="font-bold">HTML e CSS</h3>
               <p className="text-sm text-muted-foreground">
                 HTML e CSS são a base do design e da experiência de navegação na
-                web. Enquanto o HTML define &quot;o quê&quot; está na página, o CSS define
-                &quot;como&quot; esse conteúdo será exibido, garantindo que os sites sejam
+                web. Enquanto o HTML define o quê está na página, o CSS define
+                como esse conteúdo será exibido, garantindo que os sites sejam
                 visualmente atraentes e acessíveis em diferentes dispositivos.
               </p>
             </div>
