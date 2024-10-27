@@ -1,6 +1,5 @@
 "use client";
 
-import { DropdownMenuSeparator } from "@/components/ui/dropdown-menu";
 import { FaDatabase, FaReact } from "react-icons/fa6";
 import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -28,7 +27,7 @@ function FeatureSection() {
             <div className="space-y-2 flex flex-col items-center">
               <h3 className="font-bold">Next.js</h3>
               <p className="text-sm text-muted-foreground">
-                Next.js é um framework(ferramenta) para React que facilita a
+                Next.js é um framework (ferramenta) para React que facilita a
                 criação de aplicações web modernas. Ele oferece renderização no
                 servidor, rotas automáticas e otimização para SEO, melhorando
                 desempenho e experiência do usuário.
@@ -89,7 +88,7 @@ function FeatureSection() {
               <h3 className="font-bold">Database</h3>
               <p className="text-sm text-muted-foreground">
                 Os bancos de dados são sistemas organizados para armazenar,
-                gerenciar e recuperar informações de forma eficiente. Pode ser
+                gerenciar e recuperar informações de forma eficiente. Podem ser
                 relacionais, como MySQL e PostgreSQL, usando tabelas e SQL, ou
                 não relacionais, como MongoDB, que armazenam dados.
               </p>
@@ -107,8 +106,8 @@ function FeatureSection() {
               <h3 className="font-bold">HTML e CSS</h3>
               <p className="text-sm text-muted-foreground">
                 HTML e CSS são a base do design e da experiência de navegação na
-                web. Enquanto o HTML define "o quê" está na página, o CSS define
-                "como" esse conteúdo será exibido, garantindo que os sites sejam
+                web. Enquanto o HTML define &quot;o quê&quot; está na página, o CSS define
+                &quot;como&quot; esse conteúdo será exibido, garantindo que os sites sejam
                 visualmente atraentes e acessíveis em diferentes dispositivos.
               </p>
             </div>
