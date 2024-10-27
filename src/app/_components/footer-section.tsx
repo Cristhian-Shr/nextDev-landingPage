@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaGithub, FaWhatsapp } from "react-icons/fa";
+import PrivacyPolicyModal from "./privacyPolicyModal";
 
 function Footer() {
   return (
@@ -94,24 +95,26 @@ function Footer() {
             </h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  About
+                <Link href="#intro" className="text-gray-400 hover:text-white">
+                  Sobre
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Privacy policy
+                <Link href="#about" className="text-gray-400 hover:text-white">
+                  Tecnologias
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Terms of service
+                <Link href="#faq" className="text-gray-400 hover:text-white">
+                  FAQ
                 </Link>
               </li>
-
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  License
+                <Link
+                  href="www.alalklds"
+                  className="text-gray-400 hover:text-white"
+                >
+                <PrivacyPolicyModal />
                 </Link>
               </li>
             </ul>

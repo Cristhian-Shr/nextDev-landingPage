@@ -31,7 +31,7 @@ export function IntroSection() {
         </defs>
       </svg>
       <div className=" mx-auto flex max-w-[64rem] flex-col items-center text-center gap-4 px-4 md:px-0">
-        <span className="rounded-2xl bg-muted px-1 mx-8 py-1.5 text-sm font-medium flex items-center ">
+        <span className="rounded-2xl bg-muted px-4 mx-8 py-1.5 text-sm font-medium flex items-center ">
           Faça o seu projeto com a melhor tech do momento
           <ModeToggle />
         </span>
