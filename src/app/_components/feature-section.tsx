@@ -184,7 +184,7 @@ function FeatureSection() {
         </p>
       </div>
 
-      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 px-4 md:px-0">
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
           <div className="flex h-[280px] flex-col justify-between items-center rounded-md p-6">
             <SiNextdotjs className="text-6xl" />

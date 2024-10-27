@@ -1,11 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  YoutTubeIcon,
-} from "@/components/social-icons";
 import dev from "../../../public/images/cristhian.jpeg";
 import { FaFacebook } from "react-icons/fa6";
 import { FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
@@ -38,7 +32,7 @@ function AboutSection() {
             />
           </div>
         </div>
-        <div className="lg:order-first lg:row-span-2 text-center md:text-start">
+        <div className="lg:order-first lg:row-span-2 text-center md:text-start px-4 md:px-0">
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl hover:text-primary">
             @cristhianshr
           </h1>

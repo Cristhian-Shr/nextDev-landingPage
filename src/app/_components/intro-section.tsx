@@ -30,8 +30,8 @@ export function IntroSection() {
           </radialGradient>
         </defs>
       </svg>
-      <div className=" mx-auto flex max-w-[64rem] flex-col items-center text-center gap-4">
-        <span className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium flex items-center">
+      <div className=" mx-auto flex max-w-[64rem] flex-col items-center text-center gap-4 px-4 md:px-0">
+        <span className="rounded-2xl bg-muted px-1 mx-8 py-1.5 text-sm font-medium flex items-center ">
           Faça o seu projeto com a melhor tech do momento
           <ModeToggle />
         </span>
@@ -51,7 +51,7 @@ export function IntroSection() {
           aumentam a produtividade, otimizam o desempenho e garantem a
           escalabilidade das aplicações web.
         </p>
-        <div className="space-x-4">
+        <div className="space-x-4 pt-10">
           <Link
             href="https://w.app/4gj0h2"
             className="bg-primary py-2 px-4 text-md shadow-lg font-bold rounded"
