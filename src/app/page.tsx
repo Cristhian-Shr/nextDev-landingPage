@@ -1,7 +1,7 @@
 
 import AboutSection from "./_components/about-section";
 import FaqSection from "./_components/faq-section";
-import FeatureSection from "./_components/feature-section";
+import FeatureSection from "./_components/techStack-section";
 import Footer from "./_components/footer-section";
 import InvestmentSection from "./_components/insvestiment-section";
 import { IntroSection } from "./_components/intro-section";

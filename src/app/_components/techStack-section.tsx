@@ -5,7 +5,7 @@ import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
-function FeatureSection() {
+function TechStackSection() {
   return (
     <section
       id="feature"
@@ -15,7 +15,7 @@ function FeatureSection() {
         <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
           Tech Stack
         </h2>
-        <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+        <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 md:py-10">
           Venha desenvolver comigo um projeto usando a melhor Stack do mercado.
         </p>
       </div>
@@ -118,4 +118,4 @@ function FeatureSection() {
   );
 }
 
-export default FeatureSection;
+export default TechStackSection;

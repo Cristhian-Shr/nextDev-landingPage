@@ -28,7 +28,7 @@ function AboutSection() {
               alt="developer"
               src={dev}
               priority={true}
-              className="aspect-square rotate-3 rounded-lg bg-zinc-100 dark:bg-zinc-500 object-cover"
+              className="aspect-square rotate-3 rounded-3xl object-cover hover:scale-110 duration-300"
             />
           </div>
         </div>
@@ -37,13 +37,16 @@ function AboutSection() {
             @cristhianshr
           </h1>
           <p className="mt-6 text-base text-muted-foreground">
-            Sou um profissional dedicado que estuda programação há mais de dois
-            anos, sempre buscando aprimorar meus conhecimentos. Com mais de seis
-            anos de experiência em tráfego pago, tenho desenvolvido uma
-            abordagem integrada, criando sites e otimizando o tráfego para
-            melhorar a qualidade dos leads. Atualmente, estou focado no
-            desenvolvimento front-end, continuamente aperfeiçoando minhas
-            habilidades para oferecer soluções eficazes e inovadoras.
+            Bem-vindo(a)! Sou o Cristhian Sander Schöer, profissional
+            especializado em desenvolvimento web, focado em criar soluções
+            digitais de alto impacto, incluindo sites, landing pages e
+            e-commerces. Além do desenvolvimento, trabalho com estratégias de
+            tráfego pago, uma combinação que potencializa a atração e
+            qualificação de leads para o seu negócio. Minha abordagem une design
+            otimizado e performance em campanhas digitais, entregando resultados
+            concretos e aumentando o alcance da sua marca no mercado digital.
+            Aqui, você encontrará tudo o que precisa para alavancar sua presença
+            online de forma estratégica e eficaz.
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-6">
             <ul className="flex gap-5">
@@ -51,7 +54,7 @@ function AboutSection() {
                 <Link
                   href="https://www.facebook.com/csschroer"
                   aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
+                  className="text-slate-400 hover:text-slate-600"
                 >
                   <FaFacebook size={30} />
                 </Link>
@@ -60,16 +63,16 @@ function AboutSection() {
                 <Link
                   href="https://www.instagram.com/cristhian.shr/"
                   aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
+                  className="text-slate-400 hover:text-slate-600"
                 >
                   <FaInstagram size={30} />
                 </Link>
               </li>
               <li>
                 <Link
-                  href=""
+                   href="https://w.app/4gj0h2"
                   aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
+                  className="text-slate-400 hover:text-slate-600"
                 >
                   <FaWhatsapp size={30} />
                 </Link>
@@ -78,7 +81,7 @@ function AboutSection() {
                 <Link
                   href="https://github.com/Cristhian-Shr"
                   aria-label="Facebook"
-                  className="text-gray-400 hover:text-white"
+                  className="text-slate-400 hover:text-slate-600"
                 >
                   <FaGithub size={30} />
                 </Link>
