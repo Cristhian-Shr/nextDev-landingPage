@@ -3,6 +3,7 @@ import { FaFacebook, FaInstagram, FaGithub, FaWhatsapp } from "react-icons/fa";
 import PrivacyPolicyModal from "./privacyPolicy-modal";
 import { Button } from "@/components/ui/button";
 import TechModal from "./techs-modal";
+import TrafegoPagoModal from "./trafegoPago-modal";
 
 function Footer() {
   return (
@@ -66,13 +67,8 @@ function Footer() {
                 Serviços
               </h3>
               <ul className="mt-4 space-y-2">
-                <li>
-                  <Link
-                    href="#"
-                    className="text-slate-400 hover:text-slate-600"
-                  >
-                    Trafego pago
-                  </Link>
+                <li className="text-slate-400 hover:text-slate-600">
+                  <TrafegoPagoModal />
                 </li>
                 <li>
                   <Link

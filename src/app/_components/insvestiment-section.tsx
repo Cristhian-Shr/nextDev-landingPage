@@ -54,9 +54,9 @@ function InvestmentSection() {
         />
       </div>
       <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-        <h2 className="text-base font-semibold leading-7 text-indigo-600">
+        {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">
           Pricing
-        </h2>
+        </h2> */}
         <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
           Investimento
         </h2>
