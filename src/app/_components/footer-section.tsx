@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaGithub, FaWhatsapp } from "react-icons/fa";
-import PrivacyPolicyModal from "./privacyPolicy-modal";
+import PrivacyPolicyModal from "./modais/privacyPolicy-modal";
 import { Button } from "@/components/ui/button";
-import TechModal from "./techs-modal";
-import TrafegoPagoModal from "./trafegoPago-modal";
+import TechModal from "./modais/techs-modal";
+import TrafegoPagoModal from "./modais/trafegoPago-modal";
 
 function Footer() {
   return (
