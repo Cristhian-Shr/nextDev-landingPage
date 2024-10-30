@@ -16,7 +16,7 @@ const TrafegoPagoModal: React.FC = () => {
       <button onClick={openModal}>Trafego pago</button>
 
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-40">
           <div className="bg-gray-900 rounded-lg shadow-lg p-6 w-[100vw] md:w-[95vw] h-[100vh] md:h-[86vh] max-w-6xl mx-4 relative">
             <h2 className="text-2xl font-semibold mb-4">Trafego Pago:</h2>
             <div className="max-h-[85vh] overflow-y-auto text-slate-600 space-y-2">
@@ -53,7 +53,7 @@ const TrafegoPagoModal: React.FC = () => {
             <div className="flex pt-10 justify-end gap-8 px-4">
               <button
                 onClick={closeModal}
-                className="bg-primary py-2 px-4 text-md shadow-lg font-bold rounded"
+                className="bg-primary py-2 px-4 text-md shadow-lg font-bold rounded z-50"
               >
                 Fechar
               </button>

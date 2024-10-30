@@ -13,18 +13,20 @@ const TechModal: React.FC = () => {
       <button onClick={openModal}>Tecnologias utilizadas</button>
 
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="bg-black rounded-lg shadow-lg p-6 max-w-lg mx-4 relative">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-40">
+          <div className="bg-gray-900 rounded-lg shadow-lg p-6 w-[100vw] md:w-[95vw] h-[100vh] md:h-[86vh] max-w-6xl mx-4 relative">
             <h2 className="text-2xl md:text-3xl font-heading font-semibold mb-4 text-center">
               Tecnologias utilizadas nos projetos
             </h2>
-            <div className="max-h-96 overflow-y-auto text-slate-600 space-y-2">
+            <div className="max-h-[68vh] overflow-y-auto text-slate-600 space-y-2">
               <p className="text-slate-400">
                 Essas tecnologias são amplamente usadas no desenvolvimento web
                 moderno e desempenham papéis distintos, mas complementares:
               </p>
               <div>
-                <h2 className="pb-3 text-center text-xl md:text-2xl">HTML e CSS</h2>
+                <h2 className="pb-3 text-center text-xl md:text-2xl">
+                  HTML e CSS
+                </h2>
                 <p className="text-slate-400">
                   HTML (HyperText Markup Language) é a base estrutural de todas
                   as páginas da web, definindo a organização e conteúdo de uma
@@ -36,8 +38,10 @@ const TechModal: React.FC = () => {
                 </p>
               </div>
               <div>
-              <h2 className="pb-3 text-center text-xl md:text-2xl">Banco de dados</h2>
-              <p className="text-slate-400">
+                <h2 className="pb-3 text-center text-xl md:text-2xl">
+                  Banco de dados
+                </h2>
+                <p className="text-slate-400">
                   Bancos de dados são essenciais para o armazenamento e
                   recuperação de informações em uma aplicação. Eles podem ser
                   relacionais, como MySQL e PostgreSQL, onde dados são
@@ -49,8 +53,10 @@ const TechModal: React.FC = () => {
                 </p>
               </div>
               <div>
-              <h2 className="pb-3 text-center text-xl md:text-2xl">Tailwind CSS</h2>
-              <p className="text-slate-400">
+                <h2 className="pb-3 text-center text-xl md:text-2xl">
+                  Tailwind CSS
+                </h2>
+                <p className="text-slate-400">
                   Tailwind é um framework CSS utilitário que oferece classes
                   pré-definidas para estilização rápida. Em vez de escrever CSS
                   personalizado, os desenvolvedores aplicam classes diretamente
@@ -61,8 +67,10 @@ const TechModal: React.FC = () => {
                 </p>
               </div>
               <div>
-              <h2 className="pb-3 text-center text-xl md:text-2xl">JavaScript</h2>
-              <p className="text-slate-400">
+                <h2 className="pb-3 text-center text-xl md:text-2xl">
+                  JavaScript
+                </h2>
+                <p className="text-slate-400">
                   JavaScript é a linguagem de programação essencial para a web,
                   permitindo a criação de páginas interativas e dinâmicas. Ele
                   permite manipular o DOM, responder a eventos de usuários,
@@ -73,8 +81,10 @@ const TechModal: React.FC = () => {
                 </p>
               </div>
               <div>
-              <h2 className="pb-3 text-center text-xl md:text-2xl">React.js</h2>
-              <p className="text-slate-400">
+                <h2 className="pb-3 text-center text-xl md:text-2xl">
+                  React.js
+                </h2>
+                <p className="text-slate-400">
                   React é uma biblioteca JavaScript criada pelo Facebook para
                   construir interfaces de usuário. Ele introduz um modelo de
                   componentes reutilizáveis, permitindo que desenvolvedores
@@ -86,8 +96,11 @@ const TechModal: React.FC = () => {
                 </p>
               </div>
               <div>
-              <h2 className="pb-3 text-center text-xl md:text-2xl"> Next.js</h2>
-              <p className="text-slate-400">
+                <h2 className="pb-3 text-center text-xl md:text-2xl">
+                  {" "}
+                  Next.js
+                </h2>
+                <p className="text-slate-400">
                   Next é um framework para React que adiciona recursos
                   avançados, como renderização no lado do servidor (SSR) e
                   geração de páginas estáticas (SSG). Ele simplifica a criação
