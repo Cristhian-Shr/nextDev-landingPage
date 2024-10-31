@@ -50,16 +50,16 @@ const TrafegoPagoModal: React.FC = () => {
                 ideal e que cada oportunidade é aproveitada ao máximo.
               </p>
             </div>
-            <div className="flex pt-10 justify-end gap-8 px-4">
+            <div className="flex pt-10 justify-end gap-8 px-4 text-slate-400">
               <button
                 onClick={closeModal}
-                className="bg-primary py-2 px-4 text-md shadow-lg font-bold rounded z-50"
+                className="bg-primary py-2 px-4 text-md shadow-lg font-bold rounded-md z-50 hover:bg-purple-700"
               >
                 Fechar
               </button>
               <Link
                 href="https://w.app/4gj0h2"
-                className="bg-primary py-2 px-4 text-md shadow-lg font-bold rounded"
+                className="bg-primary py-2 px-4 text-md shadow-lg font-bold rounded-md hover:bg-purple-700"
               >
                 Contratar
               </Link>
