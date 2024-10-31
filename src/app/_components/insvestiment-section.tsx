@@ -23,7 +23,7 @@ const tiers = [
     href: "#",
     priceMonthly: "R$3.800",
     description: "Dedicated support and infrastructure for your company.",
-    features: ["12 meses de domínio.", "6 meses de hospedagem.", "3 emails personalizados.", "integração com banco", " alterações no projeto"],
+    features: ["12 meses de domínio.", "6 meses de hospedagem.", "3 emails personalizados.", "integração com banco", "8 alterações no projeto"],
   },
 ];
 
