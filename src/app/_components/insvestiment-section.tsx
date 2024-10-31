@@ -5,34 +5,27 @@ const tiers = [
     name: "Landing-Page",
     id: "tier-hobby",
     href: "#",
-    priceMonthly: "R$1200",
+    priceMonthly: "R$1.200",
     description: "Uma página na web focada em venda.",
     features: ["12 meses de domínio.", "1 email personalizado.", "2 alterações no projeto"],
-    featured: false,
   },
   {
     name: "Site",
     id: "tier-enterprise",
     href: "#",
-    priceMonthly: "R$2600",
+    priceMonthly: "R$2.600",
     description: "Dedicated support and infrastructure for your company.",
     features: ["12 meses de domínio.", "6 meses de hospedagem.", "3 emails personalizados.", "5 alterações no projeto"],
-    featured: true,
   },
   {
     name: "E-commerce",
     id: "tier-enterprise",
     href: "#",
-    priceMonthly: "R$3800",
+    priceMonthly: "R$3.800",
     description: "Dedicated support and infrastructure for your company.",
-    features: ["12 meses de domínio.", "6 meses de hospedagem.", "3 emails personalizados.", "5 alterações no projeto"],
-    featured: true,
+    features: ["12 meses de domínio.", "6 meses de hospedagem.", "3 emails personalizados.", "integração com banco", " alterações no projeto"],
   },
 ];
-
-function classNames(...props: (string | undefined | false)[]): string {
-  return props.filter(Boolean).join(" ");
-}
 
 function InvestmentSection() {
   return (
@@ -54,34 +47,28 @@ function InvestmentSection() {
           Faça o melhor investimento para ter mais clientes aptos a comprar o seu produto.
         </p>
       </div>
-      <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-3 px-4 md:px-0">
+      <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 gap-x-6 sm:mt-20 lg:max-w-4xl lg:grid-cols-3 px-4 md:px-0">
         {tiers.map((tier) => (
           <div
             key={tier.id}
-            className={classNames(
-              tier.featured ? "relative bg-gray-900 shadow-2xl" : "bg-white/60 sm:mx-8 lg:mx-0",
-              tier.name === "E-commerce" ? "scale-110 shadow-2xl ring-2 ring-indigo-300" : "ring-indigo-300 ring-2",
-              "rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10"
-            )}
+            className="bg-white dark:bg-gray-800 shadow-lg rounded-3xl p-8 ring-2 ring-indigo-300 dark:ring-indigo-500 sm:p-10"
           >
-            <h3 id={tier.id} className={classNames(tier.featured ? "text-indigo-400" : "text-indigo-600", "text-base font-semibold leading-7")}>
+            <h3 id={tier.id} className="text-indigo-600 dark:text-indigo-400 text-base font-semibold leading-7">
               {tier.name}
             </h3>
             <p className="mt-4 flex items-baseline gap-x-2">
-              <span className={classNames(tier.featured ? "text-white" : "text-gray-900", "text-5xl font-semibold tracking-tight")}>
+              <span className="text-gray-900 dark:text-white text-5xl font-semibold tracking-tight">
                 {tier.priceMonthly}
               </span>
-              <span className={classNames(tier.featured ? "text-gray-400" : "text-gray-500", "text-base")}>
-                ,00
-              </span>
+              <span className="text-gray-500 dark:text-gray-400 text-base">,00</span>
             </p>
-            <p className={classNames(tier.featured ? "text-gray-300" : "text-gray-600", "mt-6 text-base leading-7")}>
+            <p className="text-gray-600 dark:text-gray-300 mt-6 text-base leading-7">
               {tier.description}
             </p>
-            <ul role="list" className={classNames(tier.featured ? "text-gray-300" : "text-gray-600", "mt-8 space-y-3 text-sm leading-6 sm:mt-10")}>
+            <ul role="list" className="text-gray-600 dark:text-gray-300 mt-8 space-y-3 text-sm leading-6 sm:mt-10">
               {tier.features.map((feature) => (
-                <li key={feature} className="flex gap-x-3">
-                  <CheckIcon aria-hidden="true" className={classNames(tier.featured ? "text-indigo-400" : "text-indigo-600", "h-6 w-5 flex-none")} />
+                <li key={feature} className="flex">
+                  <CheckIcon aria-hidden="true" className="text-indigo-600 dark:text-indigo-400 h-6 w-5 flex-none" />
                   {feature}
                 </li>
               ))}
@@ -89,12 +76,7 @@ function InvestmentSection() {
             <a
               href={tier.href}
               aria-describedby={tier.id}
-              className={classNames(
-                tier.featured
-                  ? "bg-indigo-500 text-white shadow-sm hover:bg-indigo-400 focus-visible:outline-indigo-500"
-                  : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline-indigo-600",
-                "mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10"
-              )}
+              className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-indigo-600 dark:text-indigo-400 ring-1 ring-inset ring-indigo-200 dark:ring-indigo-400 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10"
             >
               Contrate agora
             </a>
