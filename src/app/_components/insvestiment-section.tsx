@@ -14,15 +14,15 @@ const tiers = [
     id: "tier-enterprise",
     href: "#",
     priceMonthly: "R$2.600",
-    description: "Dedicated support and infrastructure for your company.",
+    description: "Página na web com direito a até 5 abas, projeto sujeito a alteração de preço.",
     features: ["12 meses de domínio.", "6 meses de hospedagem.", "3 emails personalizados.", "5 alterações no projeto"],
   },
   {
     name: "E-commerce",
     id: "tier-enterprise",
     href: "#",
-    priceMonthly: "R$3.800",
-    description: "Dedicated support and infrastructure for your company.",
+    priceMonthly: "R$4.200",
+    description: "Projeto realizado via prataformas web, projeto sujeito a alteração de preço.",
     features: ["12 meses de domínio.", "6 meses de hospedagem.", "3 emails personalizados.", "integração com banco", "8 alterações no projeto"],
   },
 ];
