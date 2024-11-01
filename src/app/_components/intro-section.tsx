@@ -37,7 +37,7 @@ export function IntroSection() {
         </span>
         <h1 className="font-bold text-4xl md:text-6xl lg:text-7xl pt-4">
           The <br />
-          <span className="text-primary">Next Dev</span>
+          <span className="bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-slate-400 [text-shadow:0_0_rgba(0,0,0,0.1)]">Next Dev</span>
         </h1>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 md:pt-10">
           A combinação de React, Next.js e TailwindCSS é ideal para criar
