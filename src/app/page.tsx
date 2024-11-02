@@ -1,4 +1,3 @@
-
 import AboutSection from "./_components/about-section";
 import FaqSection from "./_components/faq-section";
 import FeatureSection from "./_components/techStack-section";
