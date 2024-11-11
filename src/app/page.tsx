@@ -4,7 +4,6 @@ import FeatureSection from "./_components/techStack-section";
 import Footer from "./_components/footer-section";
 import InvestmentSection from "./_components/insvestiment-section";
 import { IntroSection } from "./_components/intro-section";
-import Loading from "./loading";
 
 export default function Home() {
   return (
