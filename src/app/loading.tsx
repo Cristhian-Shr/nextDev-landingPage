@@ -9,7 +9,7 @@ export default function Loading() {
         <div id="ring"></div>
         <div id="ring"></div>
         <div id="ring"></div>
-        <div className="text-slate-600 dark:text-primary font-bold">Loading...</div>
+        <div className="text-slate-600 dark:text-primary font-bold">Carregando...</div>
       </div>
     </div>
   );
